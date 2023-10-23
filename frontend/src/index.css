@@ -1,0 +1,112 @@
+
+:root {
+  --main-color: blue
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  Box-sizing: border-FooterBox;
+}
+
+.FormContainer {
+  /* border: 1px solid rgb(8, 8, 8); */
+  border-radius: 10px;
+  width: 330px;
+  margin: 30px auto;
+  padding: 35px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+.FormContainer>form>input {
+  margin: 10px 0;
+  outline: 0;
+  padding: 5px 30px;
+  border-radius: 5px;
+}
+
+.FormContainer>form>input[type="date"] {
+  width: 240px;
+  cursor: pointer;
+}
+
+.FormContainer>form>textarea {
+  margin: 10px 0;
+  outline: 0;
+  padding: 5px 30px;
+  border-radius: 5px;
+  width: 240px;
+}
+.FormContainer>form>select {
+  margin: 10px 0;
+  outline: 0;
+  padding: 5px 30px;
+  border-radius: 5px;
+  width: 240px;
+}
+.FormContainer>form>.btn {
+  background-color: var(--main-color);
+  color: white;
+  width: 240px;
+}
+
+.FormContainer>form {
+  padding: 10px;
+}
+
+.TaskPageHeading {
+  text-align: center;
+  padding: 40px;
+  color: dimgray;
+  font-size: 25px;
+
+}
+
+.boxContainer {
+  display: flex;
+  padding: 20px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+.taskListContainer{
+  width: auto;
+  height: 500px;
+  overflow: auto;
+}
+.acc-icon {
+  position: absolute;
+  right: 50px;
+  margin-right: 20px;
+}
+
+.acc-icon>.fa-edit{
+  margin-right:20px;
+}
+.acc-item {
+  width: 500px;
+}
+
+.acc-header>button {
+  font-size: 25px;
+  color: dimgray;
+}
+
+.taskListAcc{
+  border: 2px solid dimgray;
+  padding: 10px;
+  margin-bottom: 10px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.formCon>input{
+  width: 200px;;
+  padding: 0 10px;
+  margin:10px 5px;
+  outline: 0;
+}
+.formCon>select{
+  height: 25px;
+  padding: 0 10px;
+  margin:10px 5px;
+}
